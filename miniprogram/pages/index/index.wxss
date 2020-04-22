@@ -20,8 +20,6 @@
 
 .img1 {
   margin-top: 60rpx;
-  width: 600rpx;
-  height: 600rpx;
 }
 
 .ve2 {
@@ -58,12 +56,14 @@
   width: 750rpx;
   height: 200rpx;
   background: rgba(49, 114, 238, 1);
+  position: fixed;
+  bottom: 0;
 }
 
 .img5 {
   width: 54rpx;
-  height: 54rpx;
-  margin-top: 34rpx;
+  height: 42rpx;
+  margin-top: 40rpx;
   margin-left: 294rpx;
   margin-bottom: 100rpx;
 }

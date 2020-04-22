@@ -1,11 +1,11 @@
 <!--index.wxml-->
 <view class="container">
   <view class="ve1">上传带有人像的照片，智能裁剪可以防止人像被切割，从而获得更好的缩略图体验</view>
-  <image class="img1" src="/images/6.png"></image>
+  <image class="img1" style='width:{{width}}rpx;height:{{height}}rpx;' src="{{img1 != '' ? img1 : '/images/6.png'}}"></image>
   <view class="ve2">
-    <image class="img2" src="/images/2.png"></image>
-    <image class="img3" src="/images/3.png"></image>
-    <image class="img4" src="/images/4.png"></image>
+    <image class="img2" src="{{img1 != '' ? img2 : '/images/2.png'}}"></image>
+    <image class="img3" src="{{img1 != '' ? img3 : '/images/3.png'}}"></image>
+    <image class="img4" src="{{img1 != '' ? img4 : '/images/4.png'}}"></image>
   </view>
   <view class="ve3">
     <image class="img5" src="/images/5.png"></image>
