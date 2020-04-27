@@ -32,7 +32,6 @@ Page({
           success: (res) => {
             let fileID = res.fileID
             console.log('[上传文件] 成功：', res)
-            
             //调用图片审查
             wx.cloud.callFunction({
               name: "reviewimage",
